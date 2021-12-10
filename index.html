@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>NYC_ParkingTicketData</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- materialize-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <!--materialize css-->
+    <meta charset="utf-8" />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/035e9e8610.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div id="Logo1" class="cta main-cta">
+      <div class="row">
+        <div class="col s12 m7">
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="https://cdn.glitch.me/49fc2fc6-0f21-434a-9162-d66b68d43fd5%2FHELLO!.png?v=1639105071509"
+                style="width: 80%;"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END OF HEADER -->
+
+    <!-- OVERVIEW SECTION -->
+    <div id="what" class="cta1 what-cta">
+      <h2>
+        An overview of the issue:
+      </h2>
+      <div class="container">
+        <p style="font-size: 16px; line-height: 1.9; text-align: center;">
+          New York City is notorious for its lack of available parking spaces. A
+          city that is known for its liveliness and fast-paced lifestyle, the
+          city's parking spaces do not seem to be keeping up with its residents
+          needs. While some condominiums provide reserved parking spaces at the
+          price of an annual fee (around $165), most residents, who are also car
+          owners and can not afford such high fees, are forced to park their
+          vehicles on the streets. With this problem on the rise, it has become
+          harder to manage a vehicle, especially for those belonging to
+          low-income households.
+        </p>
+      </div>
+    </div>
+    <!-- OVERVIEW SECTION -->
+    <div id="what" class="cta1 what-cta">
+      <h2>
+        Relevance to NYC
+      </h2>
+      <div class="container">
+        <p style="font-size: 16px; line-height: 1.9; text-align: center;">
+          All the collected data are centered around New York, and mostly focus
+          on comparing it to other states in terms of Parking tickets issued.
+          Parking tickets in NYC can cost anywhere from $60 to $125, and I plan
+          to show how parking tickets issued in New York compare to those in
+          other states. Furthermore, I also plan to show the connection between
+          Parking Tickets issued and the lack of available parking spaces in
+          NYC. I also plan to show how lack of parking spaces affect low income
+          families. Using pandas, numpy, matplotlib, and other methods to show
+          the filtered, and calculated data in a meaningful way.
+        </p>
+        <p style="font-size: 16px; line-height: 1.9; text-align: center;">
+          <a
+            href="https://github.com/NafisaTanta997/NYC_ParkingTicketData/blob/main/project_test.py"
+            target="_blank"
+            >Link to Code for Line Plots</a
+          >
+          <a
+            href="https://github.com/NafisaTanta997/NYC_ParkingTicketData/blob/main/rent2019.py"
+            target="_blank"
+            >Link to Code for Rent data</a
+          >
+        </p>
+        <p style="font-size: 16px; line-height: 1.9; text-align: center;">
+          <a
+            href="https://github.com/NafisaTanta997/NYC_ParkingTicketData/blob/main/Resources.txt"
+            target="_blank"
+            >Link to Resources Used</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <!-- START OF NY VS OTHER STATE ANALYSIS -->
+    <div class="container-resume">
+      <h3>
+        Visualization:
+      </h3>
+
+      <div class="row">
+        <div class="column">
+          <img
+            src="https://cdn.glitch.me/49fc2fc6-0f21-434a-9162-d66b68d43fd5%2FNYParkingTicket2018.png?v=1639118910340"
+            style="width: 100%;"
+          />
+        </div>
+        <div class="column">
+          <p>
+            For 2018, we see that compared to other states, New York (the spike)
+            has a very high count for total Parking Tickets Issued for that
+            year, almost 800, 000. Since this was before the pandemic, let us
+            consider this plot to be the control, that we compare the other
+            matplots against.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <p>
+            In 2019, we see that compared to 2018, New York still has a
+            significantly higher rate compared to other states in terms of
+            Parking Tickets issued. In this diagram, the y-axis is in terms of a
+            million. So while most states are well under one million issuance of
+            Parking Tickets, we see that New York alone has issued more than ten
+            million Parking Tickets, in that year alone.
+          </p>
+        </div>
+        <div class="column">
+          <img
+            src="https://cdn.glitch.me/49fc2fc6-0f21-434a-9162-d66b68d43fd5%2FNYParkingTicket2019.png?v=1639119011450"
+            style="width: 100%;"
+          />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img
+            src="https://cdn.glitch.me/49fc2fc6-0f21-434a-9162-d66b68d43fd5%2FNYParkingTicket2020.png?v=1639119433578"
+            style="width: 100%;"
+          />
+        </div>
+        <div class="column">
+          <p>
+            As we progress onto 2020, which was the year COVID hit, and the
+            pandemic began, due to the lockdown, and social distancing laws, we
+            experienced a major drop in transportation. Other than buying
+            supplies and (other than front line workers), very few people had to
+            go to work.
+          </p>
+          <p>
+            However, it was also the time that many people alsogot furloughed
+            while others worked, or studied from home. While this should result
+            in a significant drop in Parking Tickets being issued, since the
+            majority of the city's residents were then quarantined, the graph
+            shows otherwise.
+          </p>
+          <p>
+            Compared to last year's graph (which also uses the same scale), we
+            can see that the amount of Parking Tickets Issued during the
+            pandemic had still increased to more than a million. While there was
+            an increase in Parking Tickets Issued in other states too, the
+            amount of increment is more prominent in New York's case.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <p>
+            Lastly, I want to focus on the most up-to-date data on the amount of
+            Parking Tickets Issued in New York as of today (12/09/2021). While
+            the year is not yet over, we can see a significant spike in the
+            issuance of tickets. As most in-person activities are resuming, the
+            amount of transportations within the city are increasing too, thus
+            contributing to more Parking Tickets being issued.
+          </p>
+          <p>
+            However, another train of thought could be the increase in outdoor
+            dining options that most restaurants now provide post-pandemic.
+            While some restaurants have built-in space for outdoor dining, other
+            restaurants have taken to the streets, setting up booths by the
+            roadside to continue their business. But what used to be a possible
+            parking space for a vehicle-owner is now space occupied by
+            restaurants.
+          </p>
+          <p>
+            Apart from being a health, and safety hazard on its own, it can be
+            argued (given the data) that roadside eating booths have
+            significantly contributed towards the increase in Parking Tickets
+            being issued, due to a lack of free, or affordable parking space.
+          </p>
+        </div>
+        <div class="column">
+          <img
+            src="https://cdn.glitch.me/49fc2fc6-0f21-434a-9162-d66b68d43fd5%2FNYParkingTicket2021.png?v=1639119454306"
+            style="width: 120%;"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <h3 style="margin-left: 100px;">
+          Let us see how an increase in parking ticket issuance, due to a lack
+          of available, affordable parking space, means for those of low-income
+          households, renting homes in New York City.
+        </h3>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img
+            src="https://cdn.glitch.me/49fc2fc6-0f21-434a-9162-d66b68d43fd5%2F2021-12-10%20(1).png?v=1639133341878"
+            style="width: 100%;"
+          />
+        </div>
+
+        <div class="column">
+          According to data collected by renthop.com in 2019, these are the
+          monthly rents for the given apartment types in New York City.
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img
+            src="https://cdn.glitch.me/49fc2fc6-0f21-434a-9162-d66b68d43fd5%2F2021-12-10%20(2).png?v=1639133712964"
+            style="width: 80%;"
+          />
+        </div>
+        <div class="column">
+          <p>
+            <br />
+          </p>
+          <p>
+            While some considerations were made during the pandemic regarding
+            late payments of rent, and even decreasing the rent amount, given
+            the large amount of downsizing happening at many companies, rents
+            have currently spiked high.
+          </p>
+          <p>
+            According to "Bloomberg Wealth", New York renters have faced up to
+            70% increase in their rents after the pandemic.
+          </p>
+        </div>
+      </div>
+      <!-- ANALYSIS -->
+      <div class="analysis"  style="margin-left: 100px;">
+        <h3>
+          Analysis
+        </h3>
+        <div class="row">
+          <p>
+            Let us assume, for the sake of simplicity, that the rent prices have
+            increased by $50 each year (as is standard in most rented
+            condominium apartments) since 2019. Therefore, <br> these are the current
+            monthly rent for the following apartments in New York City <br>
+            <br />
+            Studio Apartment is about $2560
+            <br />
+            One Bedroom Apartment is about $3160
+            <br />
+            And a Two Bedroom Apartment is about $3840
+            <br><br>
+          </p>
+        </div>
+        <div class="row">
+          According to the "United States Census Bureau" the annual median income of the 
+          average New Yorker is $32,320. Assuming this individual rents a studio
+          apartment, every year <br> they pay $30, 720 on rent. Thus, every year they are left
+          with $(32,320 - 30,720) = $1600.
+          <br>
+          Disregarding other expenses (bills, personal expenses), this individual can only
+          afford to pay at most 26 (assuming they are $60 each) or 12 (assuming they are
+          $125 eacg) parking tickets in a year. 
+          <br>
+          If this individual opts for paid parking lot slots instead, then each year they
+          have $(1600 - 165) = $1435 to themselves. 
+          <br>
+          This is a serious problem, and the scenario (where we temporarily ignored bills, 
+          and other medical or personal expenses) is unrealistic. However, this is the reality
+          for many low-income New York residents. For many of them, having to pay 3 consecutive
+          parking tickets may cause them to fail to pay their rent. Which risks their chances
+          of eviction. I would show the data on those who are directly affected, but such data 
+          does not exist/ or is not available for me to use. 
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
