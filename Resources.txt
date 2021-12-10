@@ -1,0 +1,16 @@
+Resources List:
+
+2018-2021
+2019 - https://data.cityofnewyork.us/City-Government/Parking-Violations-Issued-Fiscal-Year-2019/faiq-9dfq
+2020 - https://data.cityofnewyork.us/City-Government/Parking-Violations-Issued-Fiscal-Year-2020/p7t3-5i9s
+2021 - https://data.cityofnewyork.us/City-Government/Parking-Violations-Issued-Fiscal-Year-2021/kvfd-bves
+https://data.cityofnewyork.us/City-Government/Parking-Violations-Issued-Fiscal-Year-2022/pvqr-7yc4
+
+I collected all these sources from https://www1.nyc.gov/, https://www.opendatanetwork.com/ and NYC Open Data
+
+Other information about New York City Parking Tickets and Rent prices in New York I gathered from
+https://data.cityofnewyork.us/
+https://www.spotangels.com/
+https://gothamist.com/
+https://www.ziprecruiter.com/Salaries/Average-Salary-in-New-York-City,NY
+
